@@ -29,7 +29,7 @@ $msg .= "User information \r\n";
 $msg .= "User IP : ".$_SERVER["REMOTE_ADDR"]."\r\n"; 
 $msg .= "Browser info : ".$_SERVER["HTTP_USER_AGENT"]."\r\n"; 
 $msg .= "User come from : ".$_SERVER["SERVER_NAME"]."\r\n";
-$msg .= "Template Name : THEBOOK VCARD";
+$msg .= "Template Name : DIFFERENCE";
 
 $recipient = "support@mutationmedia.net";// Change the recipient email adress to your adrees  
 $sujet =  "Sender information";

@@ -291,7 +291,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-	font-size:14.5px;
 }
 a {
   text-decoration: none;
@@ -663,7 +662,6 @@ dd {
 }
 abbr[title],
 abbr[data-original-title] {
-  cursor: help;
   border-bottom: 1px dotted #777;
 }
 .initialism {
@@ -797,7 +795,6 @@ pre code {
   .container {
     width: 970px;
   }
-
 }
 @media (min-width: 1200px) {
   .container {
@@ -1465,7 +1462,6 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
