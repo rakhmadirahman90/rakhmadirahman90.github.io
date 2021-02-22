@@ -1,1834 +1,1118 @@
 <!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>PRO Card - Material Resume / CV / vCard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="PRO Card - Material Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-<html>
-    <head>
-	
-	
-	 <!-- Metas -->
-        <meta charset="utf-8">
-        <title>RAKHMADI RAHMAN</title>
-        <meta name="description" content="">
-      	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
-		<!-- Css -->
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-		<link href="css/magnific-popup.css" type="text/css" rel="stylesheet" media="all" />
-		<link href="css/font.css" rel="stylesheet" type="text/css"  media="all">
-		<link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
-		<link href="css/main.css"  rel="stylesheet" type="text/css" media="all"/>
-		<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet"  media="all">
-		<link href="css/owl-carousel/owl.theme.css" rel="stylesheet"  media="all">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
 
-    </head>
-    <body>
-    
-<!-- Preloader -->
-<div class="loader">
-		<!-- Loader inner -->
-  <div class="loader-inner">
-	<div class="sk-cube-grid">
-	  <div class="sk-cube sk-cube1"></div>
-	  <div class="sk-cube sk-cube2"></div>
-	  <div class="sk-cube sk-cube3"></div>
-	  <div class="sk-cube sk-cube4"></div>
-	  <div class="sk-cube sk-cube5"></div>
-	  <div class="sk-cube sk-cube6"></div>
-	  <div class="sk-cube sk-cube7"></div>
-	  <div class="sk-cube sk-cube8"></div>
-	  <div class="sk-cube sk-cube9"></div>
-	</div>
-  </div>
-<!-- End loader inner -->
-</div>
-<!-- End preloader-->
+  <body class="material-template">
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
 
-<!--Wrapper-->
-<div id="wrapper">
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="site-title-block mobile-hidden">
+            <div class="site-title">Alex <span>Smith</span></div>
+          </div>
 
-	<!--Home section-->
-	<section id="home" class="home">
-		
-		
-		<!--Block content-->
-		<div class="block-content ">
-			
-			
-			<div class="block-teaser block-background-image large overlay" data-background="img/teaser/1.jpg">
-				
-					<!--Container-->
-					<div class="container ">
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#home" data-animation="62">Home</a><!-- href value = data-id without # of .pt-page. -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#resume" data-animation="62">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#services" data-animation="62">Services</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#portfolio" data-animation="62">Portfolio</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#blog" data-animation="62">Blog</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact" data-animation="62">Contact</a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
+        </div>
+      </header>
+      <!-- /Header -->
 
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Alex Smith</div>
+        </div>
 
-						<!--Row-->
-			            <div class="row">
-				
-				
-							<div class="col-sm-12 ">
-                            <h1 class="white ">Rakhmadi Rahman</h1>
-							<h3 class="mt-20 white mb-200">Web Designer / Developer</h3>
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page" data-id="home">
+              <div class="section-inner start-page-content">
+                <div class="page-header">
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="photo">
+                        <img src="images/photo.png" alt="">
+                      </div>
+                    </div>
+
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <div class="title-block">
+                        <h1>Alex Smith</h1>
+                        <div class="owl-carousel text-rotation">                                    
+                          <div class="item">
+                            <div class="sp-subtitle">Web Designer</div>
+                          </div>
+                          <div class="item">
+                            <div class="sp-subtitle">Frontend-developer</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="social-links">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-content">
+                  <div class="row">
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="about-me">
+                        <div class="block-title">
+                          <h3>About <span>Me</span></h3>
+                        </div>
+                        <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
+                      </div>
+                      <div class="download-resume">
+                        <a href="" class="btn btn-secondary">Download Resume</a>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <ul class="info-list">
+                        <li><span class="title">Age</span><span class="value">29</span></li>
+                        <li><span class="title">Residence</span><span class="value">USA</span></li>
+                        <li><span class="title">Address</span><span class="value">Los Angeles, USA</span></li>
+                        <li><span class="title">e-mail</span><span class="value"><a href="mailto:email@example.com">email@example.com</a></span></li>
+                        <li><span class="title">Phone</span><span class="value">+0123 123 456 789</span></li>
+                        <li><span class="title">Freelance</span><span class="value available">Available</span></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page" data-id="resume">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Resume</h2>
+                </div>
+                <div class="page-content">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Education</h3>
                         </div>
 
-						</div>
-						<!--End row-->
-
-							<!--Row-->
-				            <div class="row">
-
-
-								<div class="col-sm-6 ">
-	                            	  <a href="#" class="but opc ico white"><i class="icon-print-1"></i>Print Out My CV</a>                      
-								</div>
-								
-								
-								<div class="col-sm-6 t-right">
-	                            	 <p class="white short-email">Do you have any questions ? Write to me at <a href="mailto:rakhmadi.rahman@posindonesia.co.id">contact@mail.posindonesia.co.id</a> </p>                       
-								</div>
-
-							</div>
-							<!--End row-->
-
-					</div>
-					<!--End container-->
-		</div>
-			</div>
-			<!--End block content-->
-
-	</section>
-	<!--End home section-->
-
-	<!--Navigation container-->
-	<div class="nav-container base">
-
-			<nav class="main-nav default">
-			
-				<!--Container-->
-				<div class="container ">
-
-					<!--Row-->
-		            <div class="row">
-			
-			<div class="mobile-menu-holder">
-			<a class="mobile-btn" href="#"><i class="icon-menu"></i></a>
-			</div>
-			
-				</div>
-				<!--End row-->
-			</div>
-			<!--End container-->
-
-			<!--Container-->
-			<div class="container ">
-
-				<!--Row-->
-	            <div class="row">
-		
-					<div class="col-sm-5 t-center">
-						
-							<ul class="menu first">
-							<li><a 	class="scroll" href="#home">Home<i class="icon-home"></i></a></li>
-							<li><a  class="scroll" href="#about">About<i class="icon-user"></i></a></li>
-							<li><a  class="scroll" href="#resume">Resume<i class="icon-doc-text-inv"></i></a></li>
-							</ul>
-					</div>
-					
-					<div class="col-sm-2 pd-0 t-center">
-
-						<div class="img-profile">
-							<img src="img/testimonial/madhy.jpg" alt="">
-						</div>
-						
-						<div class="name-profile">
-							<h5><a class="scroll" href="#home">Rakhmadi Rahman<span>Learning and Development</span></a></h5>
-						</div>
-					</div>
-					
-					<div class="col-sm-5 t-center">
-							<ul class="menu second">
-							<li><a class="scroll" href="#portfolio">Portfolio<i class="icon-camera"></i></a></li>
-							<li><a  class="scroll" href="#blog">Blog<i class="icon-chat"></i></a></li>
-							<li><a  class="scroll" href="#contact">Contact<i class="icon-paper-plane"></i></a></li>
-							</ul>
-					</div>
-		
-					</div>
-					<!--End row-->
-					
-					
-
-				</div>
-				<!--End container-->
-				
-				</nav>
-	</div>
-	<!--End navigation container-->
-	
-	
-	<!--About section-->
-	<section id="about" class="about">
-		
-			<!--Block content-->
-			<div class="block-content clearfix">
-				
-				<div class="block-about one bg-grey-1 ">
-					
-					<div class="block-title">
-						<h2 class="title">Who am I ?</h2>
-					</div>
-					
-						<h5 class="lead mt-40">I am a person that has a natural thirst for knowledge, independent but great working in team. I like learning things about web programming, web frameworks, and also computer technology</h5>
-						
-						<p class="mt-20">Looking for an opportunity to work about Software Engineering, which provides professional development, interesting experiences and personal growth. My future goal : Being Useful For Others.</p>
-							
-						<a href="CV Rakhmadi Rahman.pdf" target="_blank" class="but brd ico white mt-30"><i class="icon-down-circled2 "></i>Download My CV</a>
-					
-				</div>
-				
-				<div class="block-about two bg-grey-2 ">
-					
-						<div class="block-title">
-							<h2 class="title">Personal Info</h2>
-	
-						</div>
-
-									<ul class="mt-40 info">
-									<li><span>Birthdate</span> : 16/03/1990</li>
-									<li><span>Phone</span> : + 62 812 190 2734</li>
-									<li><span>Email</span> : rakhmadi.rahman@posindonesia.co.id</li>
-									<li><span>Skype</span> : Rakhmadi Rahman </li>
-									<li><span>Freelance</span> : Available</li>
-									<li><span>Adresse</span> : Jl. Tirtasaai Raya No. 4 Bandung</li>
-									</ul>
-
-									<ul class="mt-20 socials">
-									<li><a href="#"><i class="icon-twitter"></i></a></li>
-									<li><a href="#"><i class="icon-facebook"></i></a></li>
-									<li><a href="#"><i class="icon-gplus"></i></a></li>
-									<li><a href="#"><i class="icon-pinterest"></i></a></li>
-									<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									<li><a href="#"><i class="icon-dribbble"></i></a></li>
-									<li><a href="#"><i class="icon-vimeo"></i></a></li>
-									<li><a href="#"><i class="icon-flickr"></i></a></li>
-							</ul>
-						
-						
-				</div>
-				
-				
-				<div class="block-about three bg-grey-1">
-	
-						<div class="block-title">
-							<h2 class="title">My Expertise</h2>
-						</div>
-						
-						<div class="block-expertise mt-40">
-							
-							
-							<!--Expertise-->
-							<div class="expertise mb-20 clearfix">
-								
-								<div class="exp-ico">
-									<span class="ico">
-									<i class="ic-desktop"></i>
-									</span>
-								</div>
-
-								<div class="exp-det">
-									<h6>Web Design</h6>
-									<p>Aliquip ex ea commodo consequat.</p>
-								</div>
-		
-							</div>
-							<!--Expertise-->
-							
-							
-							
-							<!--Expertise-->
-							<div class="expertise mb-20 clearfix">
-								
-								<div class="exp-ico">
-									<span class="ico">
-									<i class="ic-lock"></i>
-									</span>
-								</div>
-
-								<div class="exp-det">
-									<h6>Web Development</h6>
-									<p>Sed do eiusmod tempor incididunt.</p>
-								</div>
-		
-							</div>
-							<!--Expertise-->
-							
-
-							<!--Expertise-->
-							<div class="expertise clearfix">
-								
-								<div class="exp-ico">
-									<span class="ico">
-									<i class="ic-phone"></i>
-									</span>
-								</div>
-
-								<div class="exp-det">
-									<h6>Mobile Design</h6>
-									<p>Ut enim ad minim veniam exercion.</p>
-								</div>
-		
-							</div>
-							<!--Expertise-->
-							
-							
-						</div>
-						
-				</div>
-				
-			</div>
-			<!--End block content-->
-		
-	</section>
-	<!--End about section-->
-	
-			<!--Resume section-->
-			<section id="resume" class="resume pt-100 pb-80">
-		
-		
-					<!--Container-->
-					<div class="container ">
-
-						<!--Row-->
-			            <div class="row">
-				
-							<div class="col-md-12">
-				
-							<div class="block-title mb-60">
-								<h2 class="title">My Resume</h2>
-							</div>
-							</div>
-				
-							</div>
-							<!--End row-->
-							
-								<!--Row-->
-					            <div class="row masonry">
-							
-							
-							<!--Block content-->
-							<div class="block-content">
-								
-								
-								<div class="col-md-4 col-sm-6 resume-boxe masonry">
-									
-									<div class="inner-resume-boxe">
-									
-										<div class="block-icon"><i class="ic-toolbox"></i></div>
-										<div class="block-title">
-											<h3 class="title medium">Expertise</h3>
-										</div>
-										
-										<div class="timeline mt-40">
-											
-											<div class="exp">
-											<div class="hgroup mb-5">
-												<h4>WebDesigner &ndash; Mutation Media </h4>
-												<h6>Feb 2015 &ndash; <span class="current">Current</span></h6>
-											</div>
-											<p>Ut enim ad minim veniam, quis nostrud exerc, irure dolor in reprehend.
-
-												 </p>
-											</div>
-											
-											<div class="exp">
-											<div class="hgroup mb-5">
-												<h4>Web Developer &ndash; Mutation Media  </h4>
-												<h6>Sept 2015 &ndash; Nov 2015</h6>
-											</div>
-											<p>Ut enim ad minim veniam, quis nostrud exerc, irure dolor in reprehend.
-
-												 </p>
-											</div>
-	
-										</div>
-										</div>
-									
-								</div>
-
-									<div class="col-md-4 col-sm-6 resume-boxe masonry">
-										
-										
-										<div class="inner-resume-boxe">
-
-											<div class="block-icon"><i class="ic-pencil"></i></div>
-											<div class="block-title">
-												<h3 class="title medium">Education</h3>
-											</div>
-
-											<div class="timeline mt-40">
-
-												<div class="edu">
-												<div class="hgroup mb-5">
-													<h4>Bachelor Degree &ndash; Mutation Media </h4>
-													<h6>Feb 2015 &ndash; Nov 2015</h6>
-												</div>
-												<p>Ut enim ad minim veniam, quis nostrud exerc, irure dolor in reprehend.
-
-													 </p>
-												</div>
-
-
-												<div class="edu">
-												<div class="hgroup mb-5">
-													<h4>Master Degree &ndash; Mutation Media  </h4>
-													<h6>Sept 2015 &ndash; Nov 2015</h6>
-												</div>
-												<p>Ut enim ad minim veniam, quis nostrud exerc, irure dolor in reprehend.
-
-													 </p>
-												</div>
-
-													<div class="edu">
-													<div class="hgroup mb-5">
-														<h4>School Of Science &ndash; Mutation Media  </h4>
-														<h6>May 2015 &ndash; Sept 2015</h6>
-													</div>
-													<p>Ut enim ad minim veniam, quis nostrud exerc, irure dolor in reprehend.
-
-														 </p>
-													</div>
-
-
-											</div>
-											</div>
-
-									</div>
-								
-										<div class="col-md-4 col-sm-6 resume-boxe masonry">
-
-											<div class="inner-resume-boxe">
-
-												<div class="block-icon"><i class="ic-tools-2"></i></div>
-												<div class="block-title">
-													<h3 class="title medium">Skills</h3>
-												</div>
-	
-												<div class="skills mt-40 ">
-													
-													<ul class="skill-list clearfix">
-														<li>
-															<h4>HTML/CSS</h4>
-															<div class="rating">
-															<span></span>
-															<span></span>
-															<span></span>
-															<span></span>
-															<span class="transparent"></span>	
-															</div>
-														</li>
-														<li>
-															<h4>Jquery</h4>
-															<div class="rating">
-															<span></span>
-															<span></span>
-															<span></span>
-															<span></span>
-															<span class="transparent"></span>	
-															</div>
-														</li>
-													
-														<li>
-															<h4>Photoshop</h4>
-															<div class="rating">
-															<span></span>
-															<span></span>
-															<span></span>
-															<span></span>
-															<span class="transparent"></span>	
-															</div>
-														</li>
-														<li>
-															<h4>Illustrator</h4>
-															<div class="rating">
-															<span></span>
-															<span></span>
-															<span></span>
-															<span class="transparent"></span>
-															<span class="transparent"></span>	
-															</div>
-														</li>
-														
-
-													</ul>
-													
-												</div>
-
-												</div>
-
-										</div>
-								
-												<div class="col-md-4 col-sm-6 resume-boxe masonry">
-
-													<div class="inner-resume-boxe">
-
-														<div class="block-icon"><i class="ic-mic"></i></div>
-														<div class="block-title">
-															<h3 class="title medium">Languages</h3>
-														</div>
-
-														<div class="skills mt-40 ">
-
-															<ul class="skill-list clearfix">
-																<li>
-																	<h4>English</h4>
-																	<div class="rating">
-																	<span></span>
-																	<span></span>
-																	<span></span>
-																	<span></span>
-																	<span class="transparent"></span>	
-																	</div>
-																</li>
-																<li>
-																	<h4>French</h4>
-																	<div class="rating">
-																	<span></span>
-																	<span></span>
-																	<span></span>
-																	<span class="transparent"></span>
-																	<span class="transparent"></span>	
-																	</div>
-																</li>
-																<li>
-																	<h4>Spanish</h4>
-																	<div class="rating">
-																	<span></span>
-																	<span></span>
-																	<span class="transparent"></span>
-																	<span class="transparent"></span>
-																	<span class="transparent"></span>	
-																	</div>
-																</li>
-															
-															</ul>
-
-														</div>
-
-														</div>
-
-												</div>
-
-												<div class="col-md-4 col-sm-6 resume-boxe masonry">
-
-
-													<div class="inner-resume-boxe">
-
-														<div class="block-icon"><i class="ic-telescope"></i></div>
-														<div class="block-title">
-															<h3 class="title medium">Interests</h3>
-														</div>
-
-														<div class="hb-list mt-40 ">
-
-																<ul>
-																	<li>
-																		<span><i class="ic-megaphone"></i></span>
-																		<h6>Music</h6>
-																	</li>
-																	
-																	<li>
-																		<span><i class="ic-strategy"></i></span>
-																		<h6>Gaming</h6>
-																	</li>
-																	
-																	
-																	<li>
-																		<span><i class="ic-hotairballoon"></i></span>
-																		<h6>Travel</h6>
-																	</li>
-																	
-																	
-																	
-																	<li>
-																		<span><i class="ic-basket"></i></span>
-																		<h6>Cooking</h6>
-																	</li>
-																	
-																	
-																</ul>
-
-														</div>
-
-														</div>
-
-												</div>
-
-													<div class="col-md-4 col-sm-6 resume-boxe masonry">
-
-
-														<div class="inner-resume-boxe">
-
-															<div class="block-icon"><i class="ic-wallet"></i></div>
-															<div class="block-title">
-																<h3 class="title medium">Assets</h3>
-															</div>
-
-															<div class="ast-list mt-40 ">
-
-																<ul>
-																	<li>
-																		<span>Responsible</span>
-																		<span>Diligence</span>
-																		<span>Labour</span>
-																	</li>
-																	
-																	<li>
-																		<span>Rigor</span>
-																		<span>Creative</span>
-																		<span>Funny</span>
-																	</li>
-																	
-																	<li>
-																		<span>Great Communicator</span>
-																		<span>Flexible</span>
-																	</li>
-																	
-																	
-																</ul>
-
-															</div>
-
-
-
-															</div>
-
-													</div>
-								
-							</div>
-							<!--End block content-->
-
-							</div>
-							<!--End row-->
-
-							<!--Row-->
-				            <div class="row">
-
-						
-							<!--Block content-->
-							<div class="block-content mt-50 pb-80 clearfix">
-								
-								
-								<ul class="fact-list">
-									<li class="col-sm-3">
-										<div class="inner-fact clearfix">
-										<span class="ico-fact"><i class="ic-hourglass"></i></span>
-										<div class="desc-fact"><span class="count">400</span>Project Finished</div>
-										</div>
-									</li>
-									
-									<li class="col-sm-3">
-										<div class="inner-fact clearfix">
-										<span class="ico-fact"><i class="ic-trophy"></i></span>
-										<div class="desc-fact"><span class="count">320</span>Instagram Selfie</div>
-										</div>
-									</li>
-									
-									<li class="col-sm-3">
-										<div class="inner-fact clearfix">
-										<span class="ico-fact"><i class="ic-lightbulb"></i></span>
-										<div class="desc-fact"><span class="count">5623</span>Coffee Drinked</div>
-										</div>
-									</li>
-									
-									<li class="col-sm-3">
-										<div class="inner-fact clearfix">
-										<span class="ico-fact"><i class="ic-heart"></i></span>
-										<div class="desc-fact"><span class="count">1400</span>Facebook Likes</div>
-										</div>
-									</li>
-								</ul>
-								
-								
-							</div>
-							<!--End block content-->
-
-								</div>
-								<!--End row-->
-
-						</div>
-						<!--End container-->
-
-						<!--Block content-->
-						<div class="block-content bg-grey  pt-100 pb-80">
-							
-							
-								<!--Container-->
-								<div class="container ">
-
-									<!--Row-->
-						            <div class="row">
-											<div class="col-md-12">
-
-											<div class="block-title mb-60">
-												<h2 class="title">Services</h2>
-											</div>
-											</div>
-									</div>
-										<!--End row-->
-										
-		
-								<!--Row-->
-					            <div class="row">
-									
-									<div class="block-service clearfix">
-										<div class="col-sm-4 img">
-											<img src="img/img-service.jpg" alt="">
-										</div>
-										
-										
-										
-										<div class="col-sm-4">
-											<ul class="block-list-services mt-60">
-												<li class="mb-60 clearfix">
-													<div class="serv-ico">
-														<span class="ico">
-														<i class="ic-shield"></i>
-														</span>
-													</div>
-													
-													
-													<div class="serv-det">
-													<h5 class="mb-10">Great Support</h5>
-													<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tu enim ad minim veniam.</p>
-												</div>
-													
-													
-											</li>
-											
-											
-											<li class="mb-60 clearfix">
-												<div class="serv-ico">
-													<span class="ico">
-													<i class="ic-hotairballoon"></i>
-													</span>
-												</div>
-												
-												
-												<div class="serv-det">
-												<h5 class="mb-10">Print &amp; Branding</h5>
-												<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tu enim ad minim veniam.</p>
-											</div>
-												
-												
-										</li>
-										
-											
-											<li class=" mb-60 clearfix">
-												<div class="serv-ico">
-													<span class="ico">
-													<i class="ic-megaphone"></i>
-													</span>
-												</div>
-												
-												
-												<div class="serv-det">
-												<h5 class="mb-10">Marketing</h5>
-												<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tu enim ad minim veniam.</p>
-											</div>
-												
-												
-										</li>
-
-										
-											
-											</ul>
-										</div>
-										
-											<div class="col-sm-4">
-												<ul class="block-list-services mt-60">
-													<li class="mb-60 clearfix">
-														<div class="serv-ico">
-															<span class="ico">
-															<i class="ic-key"></i>
-															</span>
-														</div>
-
-
-														<div class="serv-det">
-														<h5 class="mb-10">development</h5>
-														<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tu enim ad minim veniam.</p>
-													</div>
-
-
-												</li>
-
-												<li class="mb-60 clearfix">
-													<div class="serv-ico">
-														<span class="ico">
-														<i class="ic-lightbulb"></i>
-														</span>
-													</div>
-
-
-													<div class="serv-det">
-													<h5 class="mb-10">Branding</h5>
-													<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tu enim ad minim veniam.</p>
-												</div>
-
-
-											</li>
-
-												<li class=" clearfix">
-													<div class="serv-ico">
-														<span class="ico">
-														<i class="ic-laptop"></i>
-														</span>
-													</div>
-
-
-													<div class="serv-det">
-													<h5 class="mb-10">Web Design</h5>
-													<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tu enim ad minim veniam.</p>
-												</div>
-
-
-											</li>
-
-
-												</ul>
-											</div>
-										
-									</div>
-						
-						
-								</div>
-								<!--End row-->
-
-							
-									</div>
-									<!--End container-->
-							
-						</div>
-						<!--End block content-->
-
-						<!--Block content-->
-							<div class="block-content clearfix  t-center pt-60 pb-60">
-
-									<!--Container-->
-									<div class="container ">
-
-										<!--Row-->
-							            <div class="row">
-
-
-											<div class="block-client clearfix ">
-
-												<ul id="client-carousel">
-													<li><img src="img/logo/l1.png" alt=""></li>
-													<li><img src="img/logo/l2.png" alt=""></li>
-													<li><img src="img/logo/l3.png" alt=""></li>
-													<li><img src="img/logo/l4.png" alt=""></li>
-													<li><img src="img/logo/l5.png" alt=""></li>
-													<li><img src="img/logo/l6.png" alt=""></li>
-													<li><img src="img/logo/l7.png" alt=""></li>
-													<li><img src="img/logo/l8.png" alt=""></li>
-
-												</ul>	
-
-											</div>
-
-										</div>
-										<!--End row-->
-
-									</div>
-									<!--End container-->
-
-
-								</div>
-								<!--End block content-->
-								
-
-								<!--Block content-->
-						<div class="block-content t-center block-background-image medium overlay" data-background="img/parallax/5.jpg">
-									
-									<div class="block-testi ">
-										
-										<!--Container-->
-										<div class="container">
-											
-											
-											<!--Row-->
-											<div class="row">
-										
-										<div class="col-md-12">
-											
-											
-											<!--Testi thumbs-->
-											<div class="testi-thumbs">
-												<ul class="thumbs">
-													<li><a class="t-active" href="#testi-1"><img src="img/testimonial/1.jpg" alt="" ><span></span></a></li>
-													<li><a href="#testi-2"><img src="img/testimonial/2.jpg" alt=""><span></span></a></li>
-													<li><a href="#testi-3"><img src="img/testimonial/3.jpg" alt=""><span></span></a></li>
-													<li><a href="#testi-4"><img src="img/testimonial/4.jpg" alt=""><span></span></a></li>
-													<li><a href="#testi-5"><img src="img/testimonial/5.jpg" alt=""><span></span></a></li>
-												</ul>
-												
-												
-												<h3 class="white mt-50 mb-20">Peaple appreciate working with difference vCard</h3>
-
-											</div>
-											 <!--End testi thumbs-->
-											
-
-											<!--Testi details-->
-											<div class="testi-details mt-10">
-
-												<!--Testi details single-->
-												<div id="testi-1" class="td first">
-														<blockquote class="mb-40">Being the richest man in the cemetery doesn't matter to me.
-													Going to bed at night saying we've done<br> something wonderful... that's what matters to me</blockquote>
-													<h6>Tim Cook</h6>
-													<span> CEO and Founder</span>
-												</div>
-												<!--End testi details single-->
-
-
-													<!--Testi details single-->
-													<div id="testi-2" class="td">
-															<blockquote class="mb-40">If you keep your eye on the profit, you’re going to skimp on the product.
-																 But if you focus on making<br> really great products, then the profits will follow.</blockquote>
-														<h6>Steve Jobs</h6>
-														<span> CEO and Founder</span>
-													</div>
-													<!--End testi details single-->
-
-
-													<!--Testi details single-->
-													<div id="testi-3" class="td">
-															<blockquote class="mb-40">Being the richest man in the cemetery doesn't matter to me.
-														Going to bed at night saying we've done<br> something wonderful... that's what matters to me</blockquote>
-														<h6>Tim Cook</h6>
-														<span>CEO and Founder</span>
-													</div>
-													<!--End testi details single-->
-
-
-													<!--Testi details single-->
-													<div id="testi-4" class="td">
-																<blockquote class="mb-40">If you keep your eye on the profit, you’re going to skimp on the product.
-																	 But if you focus on making<br> really great products, then the profits will follow.</blockquote>
-														<h6>Steve Jobs</h6>
-														<span>CEO and Founder</span>
-													</div>
-													<!--End testi details single-->
-
-
-													<!--Testi details single-->
-													<div id="testi-5" class="td">
-															<blockquote class="mb-40">Being the richest man in the cemetery doesn't matter to me.
-														Going to bed at night saying we've done<br> something wonderful... that's what matters to me</blockquote>
-														<h6>Tim Cook</h6>
-														<span>CEO and Founder</span>
-													</div>
-													<!--End testi details single-->
-
-
-											</div>
-											<!--End testi details-->
-
-										</div>
-										
-										</div>
-										<!--End row-->
-										
-										</div>
-										<!--End container-->
-										
-									</div>
-									
-								</div>
-								<!--End block content-->
-
-								<!--Block content-->
-								<div class="block-content mt-100">
-									
-									
-									<div class="block-pricing ">
-										
-										
-										<!--Container-->
-										<div class="container">	
-											
-									<!--Row-->
-						            <div class="row">
-
-										<div class="col-md-12">
-
-										<div class="block-title mb-60">
-											<h2 class="title">Packs Pricing</h2>
-										</div>
-										</div>
-
-										</div>
-										<!--End row-->
-
-											
-											<!--Row-->
-											<div class="row">
-										
-												<div class="block-table clearfix t-center">
-													
-										<div class="col-md-3 col-sm-6">
-
-											<div class="table pt-50 pb-40">
-											
-
-												<h6>Starter</h6>
-												<div class="block-price mt-50 mb-40">
-													<span class="dollar">$</span>
-													<span class="price">30</span>
-													<span class="per">/mo</span>
-												</div>
-												
-												
-												<ul>
-	                                            <li>Branding</li>
-	                                            <li>Logo Design</li>
-	                                            <li>Web Design</li>
-	                                            <li><span>Web Development</span></li>
-	                                            <li><span>Apps Design</span></li>
-	                                            <li><span>Apps SDK</span></li>
-	                                            <li><span>SEO Optimization</span></li>
-	                                        </ul>
-												
-												
-												<a class="but brd mt-40 white" href="#">Order Now</a>
-												
-											</div>
-											
-											
-											
-										</div>
-										
-										
-											<div class="col-md-3 col-sm-6">
-
-												<div class="table pt-50 pb-40">
-												
-
-													<h6>Intermediate</h6>
-													<div class="block-price mt-50 mb-40">
-														<span class="dollar">$</span>
-														<span class="price">60</span>
-														<span class="per">/mo</span>
-													</div>
-													
-													
-													<ul>
-		                                           		 <li>Branding</li>
-			                                            <li>Logo Design</li>
-			                                            <li>Web Design</li>
-			                                            <li>Web Development</li>
-			                                            <li><span>Apps Design</span></li>
-			                                            <li><span>Apps SDK</span></li>
-			                                            <li><span>SEO Optimization</span></li>
-		                                        </ul>
-													
-													<a class="but brd mt-40 white" href="#">Order Now</a>
-													
-												</div>
-												
-												
-											</div>
-											
-											
-												<div class="col-md-3 col-sm-6">
-
-													<div class="table pt-50 pb-40">
-													
-														<h6>Professional</h6>
-														<div class="block-price mt-50 mb-40">
-															<span class="dollar">$</span>
-															<span class="price">120</span>
-															<span class="per">/mo</span>
-														</div>
-														
-														
-														<ul>
-			                                           		 <li>Branding</li>
-					                                            <li>Logo Design</li>
-					                                            <li>Web Design</li>
-					                                            <li>Web Development</li>
-					                                            <li>Apps Design</li>
-					                                            <li><span>Apps SDK</span></li>
-					                                            <li><span>SEO Optimization</span></li>
-			                                        </ul>
-														
-														<a class="but brd mt-40 white" href="#">Order Now</a>
-													</div>
-													
-												</div>
-														
-												
-													<div class="col-md-3 col-sm-6">
-
-														<div class="table pt-50 pb-40">
-														
-															<h6>Advanced</h6>
-															<div class="block-price mt-50 mb-40">
-																<span class="dollar">$</span>
-																<span class="price">240</span>
-																<span class="per">/mo</span>
-															</div>
-
-
-															<ul>
-				                                           		 <li>Branding</li>
-						                                            <li>Logo Design</li>
-						                                            <li>Web Design</li>
-						                                            <li>Web Development</li>
-						                                            <li>Apps Design</li>
-						                                            <li>Apps SDK</li>
-						                                            <li>SEO Optimization</li>
-				                                        </ul>
-				
-				
-														<a class="but brd mt-40 white" href="#">Order Now</a>
-
-
-														</div>
-														
-													</div>
-														
-														
-												</div>
-										
-										</div>
-										<!--End row-->
-										
-										<!--End row-->
-										<div class="row">
-											
-											<div class="col-sm-12">
-												<div class="block-more-info mt-20">
-													<p class="short-email">* For further info or questions, please send me an email at <a href="#">contact@gmail.com</a></p>
-												</div>
-											</div>
-											
-										</div>
-										<!--End row-->
-
-										</div>
-										<!--End container-->
-										
-									</div>
-									
-									
-								</div>
-								<!--End block content-->			
-
-			</section>
-			<!--End resume section-->
-			
-
-			<!--Portfolio section-->
-			<section id="portfolio" class="portfolio bg-grey  pt-100 pb-50">
-				
-				<!--Block content-->
-				<div class="block-content">
-
-								<!--Container-->
-								<div class="container ">
-
-									<!--Row-->
-						            <div class="row">
-											<div class="col-md-12">
-
-											<div class="block-title mb-60">
-												<h2 class="title">Portfolio</h2>
-											</div>
-											</div>
-									</div>
-										<!--End row-->
-										
-										<!--Block works-->
-										<div class="block-works">
-										
-										<!--Row-->
-										<div class="row">
-											
-											<div class="col-sm-12">
-												
-												<!--Block filter-->
-												<div class="block-filter mb-50">
-												<ul class="filter">
-													<li><a class="active" href="#" data-filter="all">All</a></li>
-													<li><a href="#" data-filter="web">Web Design</a></li>
-													<li><a href="#" data-filter="graphic">Graphic Design</a></li>
-													<li><a href="#" data-filter="motion">Motion Graphic</a></li>
-											</ul>
-
-											</div>
-											<!--End block filter-->
-												
-											</div>
-	
-										</div>
-										<!--End row-->
-										
-											<!--Row-->
-											<div class="row masonry">
-												
-												<div class="col-md-3 col-sm-6  masonry item-block">
-													
-													<div class="item web">
-													<a href="project_single.html">
-														<div class="desc">
-														<span>in web design</span>
-														<h5>Project Name</h5>
-														
-														</div>
-												
-												<img src="img/portfolio/madhy.jpg" alt="">
-												</a>
-												
-												</div>
-												</div>
-																								
-												<div class="col-md-3 col-sm-6  masonry item-block">
-
-													<div class=" item web ">
-													<a href="img/portfolio/2.jpg" class="popup">
-														<div class="desc">
-														<span>in web design</span>
-														<h5>Project Name</h5>
-														
-														</div>
-
-												<img src="img/portfolio/2.jpg" alt="">
-												</a>
-
-												</div>
-												</div>
-												
-												
-												<div class="col-md-3 col-sm-6  masonry item-block">
-
-													<div class=" item graphic">
-													<a href="img/portfolio/3.jpg" class="popup">
-														<div class="desc">
-														<span>in graphic design</span>
-														<h5>Project Name</h5>
-														
-														</div>
-
-												<img src="img/portfolio/3.jpg" alt="">
-												</a>
-
-												</div>
-												</div>
-												
-												
-										
-											<div class="col-md-3 col-sm-6  masonry item-block">
-
-												<div class=" item graphic">
-												<a href="img/portfolio/4.jpg" class="popup">
-													<div class="desc graphic">
-													<span>in graphic design</span>
-													<h5>Project Name</h5>
-													
-													</div>
-
-											<img src="img/portfolio/4.jpg" alt="">
-											</a>
-
-											</div>
-											</div>
-											
-											
-												<div class="col-md-3 col-sm-6 masonry item-block">
-
-													<div class=" item graphic">
-													<a href="img/portfolio/5.jpg" class="popup">
-														<div class="desc">
-														<span>in graphic design</span>
-														<h5>Project Name</h5>
-														
-														</div>
-
-												<img src="img/portfolio/5.jpg" alt="">
-												</a>
-
-												</div>
-												</div>
-												
-												
-												
-											<div class="col-md-3 col-sm-6 masonry item-block">
-
-												<div class=" item web">
-												<a href="img/portfolio/6.jpg" class="popup">
-													<div class="desc">
-													<span>in web design</span>
-													<h5>Project Name</h5>
-													
-													</div>
-
-											<img src="img/portfolio/6.jpg" alt="">
-											</a>
-
-											</div>
-											</div>
-											
-											
-												<div class="col-md-3 col-sm-6 masonry item-block">
-
-													<div class=" item motion">
-													<a class="popup-vimeo" href="https://vimeo.com/67429593">
-														<div class="desc">
-														<span>in motion design</span>
-														<h5>Project Name</h5>
-														
-														</div>
-
-												<img src="img/portfolio/7.jpg" alt="">
-												</a>
-
-												</div>
-												</div>
-											
-													<div class="col-md-3 col-sm-6 masonry item-block">
-
-														<div class=" item motion">
-														<a class="popup-youtube" href="https://www.youtube.com/watch?v=gTFljCRnGN4">
-															<div class="desc">
-															<span>in motion design</span>
-															<h5>Project Name</h5>
-															
-															</div>
-
-													<img src="img/portfolio/9.jpg" alt="">
-													</a>
-
-													</div>
-													</div>
-													
-													
-														<div class="col-md-3 col-sm-6 masonry item-block">
-
-															<div class=" item web">
-															<a href="http://www.mutationmedia.net/" target="_blank" >
-																<div class="desc">
-																<span>in web design</span>
-																<h5>Project Name</h5>
-																
-																</div>
-
-														<img src="img/portfolio/10.jpg" alt="">
-														</a>
-
-														</div>
-														</div>
-												
-											</div>
-											<!--End row-->	
-
-
-												</div>
-												<!--End block works-->
-							
-
-									</div>
-									<!--End container-->
-
-						</div>
-						<!--End block content-->
-				
-
-			</section>
-			<!--End portfolio section-->
-						
-			<!--Blog section-->
-			<section id="blog" class="blog pt-100">
-				
-				<!--Block content-->
-				<div class="block-content">
-
-
-								<!--Container-->
-								<div class="container ">
-
-									<!--Row-->
-						            <div class="row">
-											<div class="col-md-12">
-
-											<div class="block-title mb-60">
-												<h2 class="title">Latest News</h2>
-											</div>
-											</div>
-									</div>
-										<!--End row-->
-										
-											<!--Row-->
-								            <div class="row">
-									
-									
-											<div class="block-posts">
-												
-												<div class="col-md-4 col-sm-4  ">
-													
-													
-										<!--Post-->
-										<div class="post latest">
-											<!--Post media-->
-											<div class="post-media">
-												<img src="img/blog/1.jpg" alt="">
-											</div>
-											<!--End post media-->
-											
-											<!--Post details-->
-											<div class="post-details latest pb-20">
-												<h4 class="uppercase pt-15 pb-15"><a href="blog_single.html">Raw Introduction</a></h4>
-												
-												<!--Post meta-->
-												<div class="post-meta t-center pt-10 pb-10">
-													<ul class="clearfix">
-													<li class="date">03 May</li>
-													<li><i class="icon-user-1"></i><span>by<a href="#"> admin</a></span></li>
-													<li><i class="icon-comment"></i><span>Comments<a href="#"> (2)</a></span></li>
-													</ul>
-												</div>
-												<!--End post meta-->
-												
-												
-											<p class="pt-15 pb-20">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-													 Ut enim ad minim veniam, quis nostrud exercitation.</p>
-												
-												
-												<a class="more" href="blog_single.html">read more <span>&rarr;</span> </a>
-												
-												
-											</div>
-											<!--End post details-->
-											
-										</div>
-										<!--End post-->
-										</div>
-												
-										<div class="col-md-4 col-sm-4">
-
-
-											<!--Post-->
-											<div class="post latest">
-												<!--Post media-->
-												<div class="post-media">
-													<img src="img/blog/2.jpg" alt="">
-												</div>
-												<!--End post media-->
-
-												<!--Post details-->
-												<div class="post-details latest pb-20">
-													<h4 class="uppercase pt-15 pb-15"><a href="blog_single.html">Mobile Design</a></h4>
-
-													<!--Post meta-->
-													<div class="post-meta t-center pt-10 pb-10">
-														<ul class="clearfix">
-														<li class="date">10 Fev</li>
-														<li><i class="icon-user-1"></i><span>by<a href="#"> admin</a></span></li>
-														<li><i class="icon-comment"></i><span>Comments<a href="#"> (2)</a></span></li>
-														</ul>
-													</div>
-													<!--End post meta-->
-
-
-													<p class="pt-15 pb-20">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-														 Ut enim ad minim veniam, quis nostrud exercitation.</p>
-
-
-													<a class="more" href="blog_single.html">read more <span>&rarr;</span> </a>
-
-
-												</div>
-												<!--End post details-->
-
-											</div>
-											<!--End post-->
-											</div>		
-																							
-											<div class="col-md-4 col-sm-4  ">
-
-
-											<!--Post-->
-											<div class="post latest">
-												<!--Post media-->
-												<div class="post-media">
-													<img src="img/blog/3.jpg" alt="">
-												</div>
-												<!--End post media-->
-
-												<!--Post details-->
-												<div class="post-details latest pb-20">
-													<h4 class="uppercase pt-15 pb-15"><a href="blog_single.html">Reading &amp; Blogging</a></h4>
-
-													<!--Post meta-->
-													<div class="post-meta t-center pt-10 pb-10">
-														<ul class="clearfix">
-														<li class="date">05 Sept</li>
-														<li><i class="icon-user-1"></i><span>by<a href="#"> admin</a></span></li>
-														<li><i class="icon-comment"></i><span>Comments<a href="#"> (2)</a></span></li>
-														</ul>
-													</div>
-													<!--End post meta-->
-
-
-								<p class="pt-15 pb-20">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-														 Ut enim ad minim veniam, quis nostrud exercitation.</p>
-
-
-													<a class="more" href="blog_single.html">read more <span>&rarr;</span> </a>
-
-
-												</div>
-												<!--End post details-->
-
-											</div>
-											<!--End post-->
-											</div>	
-												
-											</div>
-									
-									
-											</div>
-												<!--End row-->
-									
-
-													<!--Row-->
-										            <div class="row">
-														
-														<div class="col-sm-12 t-center">
-						                            	  <a class="but brd  white mt-80 mb-80 " href="blog.html">View All Blog Posts</a>                      
-													</div>
-													
-												</div>
-													<!--End row-->
-									
-									</div>
-									<!--End container-->
-
-						</div>
-						<!--End block content-->
-				
-
-			</section>
-			<!--End blog section-->
-			
-				<!--Contact section-->
-				<section id="contact" class="contact">
-
-					<!--Block content-->
-					<div class="block-content">
-						
-						
-						<!--Block contact-->
-						<div class="block-contact">
-						<div id="map">
-							
-						</div>
-
-						<div class="contact-overlay bg-grey-dark">
-							
-								<div class="block-title mb-60">
-									<h2 class="title white">Send a Message</h2>
-								</div>
-								
-								<div class="block-form">
-									
-									<form class="contact-form clearfix" method="post" action="send.php">
-										<input type="text" placeholder="Name *" value="" id="name" name="name">
-										<input type="text" placeholder="Email *" value="" id="email" name="email">
-										<input type="text" placeholder="Subject" value="" id="subject" name="subject">
-									<textarea name="message" placeholder="Message *" id="message" cols="45" rows="10"></textarea>
-									<input type="submit" value="Send Message" class="but opc white submit">
-									</form>
-
-									<!--Contact form message-->
-									<div id="success"><h2>Your message has been sent. Thank you!</h2></div>
-									<div id="error"><h2>Sorry your message can not be sent.</h2></div>
-									<!--End contact form message-->
-	
-								</div>
-							
-						</div>
-
-						</div>
-						<!--End block contact-->
-		
-						</div>
-						<!--End block content-->
-						
-							<!--Block content-->
-							<div class="block-content bg-grey pt-80 pb-80">
-						
-						<!--Container-->
-						<div class="container">
-							
-							<!--Row-->
-							<div class="row">
-								
-								
-								<div class="block-info-holder clearfix">
-								
-								<div class="col-sm-4">
-									
-									<div class="block-info">
-									<div class="info-ico">
-										<span class="ico">
-										<i class="ic-phone"></i>
-										</span>
-									</div>
-
-
-									<div class="info-det">
-									<h5 class="mb-10">Call Me</h5>
-									<p>Office : + 123-456-789-456<br>
-									Cell : + 126-156-489-756</p>
-								</div>
-
-
-							</div>
-									
-								</div>
-																
-								<div class="col-sm-4">
-									
-									<div class="block-info">
-									<div class="info-ico">
-										<span class="ico">
-										<i class="ic-streetsign"></i>
-										</span>
-									</div>
-
-
-									<div class="info-det">
-									<h5 class="mb-10">Address</h5>
-									<p>1234 Street Road<br> City Name, IN 567 890.</p>
-								</div>
-
-
-							</div>
-									
-								</div>
-
-								<div class="col-sm-4">
-									
-									<div class="block-info">
-									<div class="info-ico">
-										<span class="ico">
-										<i class="ic-clock"></i>
-										</span>
-									</div>
-
-
-									<div class="info-det">
-									<h5 class="mb-10">Work hours</h5>
-									<p>
-									Monday - Friday : 09am - 18pm<br>
-									Saturday : 09am - 1pm
-									</p>
-								</div>
-
-
-							</div>
-									
-								</div>
-								
-							</div>
-								
-							</div>
-							<!--End row-->
-							
-						</div>
-						<!--End container-->
-						
-
-						</div>
-						<!--End block content-->
-
-						<!--Block content-->
-						<div class="block-content  t-center">
-							
-							
-							<!--Container-->
-							<div class="container">
-
-								<!--Row-->
-								<div class="row">
-							
-							<div class="col-md-12">
-								
-								
-							<div class="block-feed">
-								<h6 class="uppercase mt-20 mb-20"><i class="icon-instagram"></i>Instagram</h6>
-								
-								<ul class="insta-Feed" id="instafeed"></ul>
-								
-							</div>
-							
-							</div>
-							
-								</div>
-								<!--End row-->
-
-							</div>
-							<!--End container-->
-
-						</div>
-						<!--End block content-->
-
-			</section>
-			<!--End contact section-->
-
-			<!--Footer-->
-			<footer class="footer t-center pt-60 pb-60">
-				
-						<!--Container-->
-						<div class="container">
-
-							<!--Row-->
-							<div class="row">
-						
-						<div class="col-md-12">
-								
-				<ul class="socials round pb-20">
-					
-					<li><a href="#"><i class="icon-facebook-circled"></i><span>Facebook</span></a></li>
-					<li><a href="#"><i class="icon-twitter-circled"></i><span>Twitter</span></a></li>
-					<li><a href="#"><i class="icon-linkedin-circled"></i><span>Linkedin</span></a></li>
-					<li><a href="#"><i class="icon-dribbble-circled"></i><span>Dribbble</span></a></li>
-			</ul>
-			
-			<hr>
-			
-			<p class="pt-20">&copy; 2021 all rights reserved. A product of <a href="http://www.mutationmedia.net" target="_blank">Rakhmadi Rahman</a>.</p>
-			
-			</div>
-			
-				</div>
-				<!--End row-->
-
-			</div>
-			<!--End container-->
-				
-				
-			</footer>
-			<!--End footer-->
-
-</div>
-<!--End wrapper-->
-
-				
-<!--Javascript-->	
-<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/owl.carousel.js" type="text/javascript"></script>
-<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-<script src="js/masonry.min.js" type="text/javascript"></script>
-<script src="js/jquery.smooth-scroll.js" type="text/javascript"></script>
-<script src="js/jquery.appear.min.js" type="text/javascript"></script>
-<script src="js/timer.js" type="text/javascript"></script>
-<script src="js/placeholders.min.js" type="text/javascript"></script>
-<script src="js/instafeed.min.js" type="text/javascript"></script>
-<script src="js/easing.js" type="text/javascript"></script>
-<script src="js/jquery.ui.totop.min.js" type="text/javascript"></script>
-<script src="js/script.js" type="text/javascript"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-
-<script>
-
-(function($) {
-  "use strict";
-
-
-
-// Instagram feed setup
-
-var instaFeed = new Instafeed({
-        get: 'user',
-        userId: '305801553',
-        accessToken: '305801553.1677ed0.3d872300c10c4ff687868875ee8abc5d',
-		limit: 5,
-		template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
-    });
-instaFeed.run();
-
-
-
-
-
-
-// Google map location
-
-		var styles = [
-				        {
-				            stylers: [
-				                { saturation: -100 }
-
-				            ]
-				        },{
-				            featureType: 'road',
-				            elementType: 'geometry',
-				            stylers: [
-				                { hue: "#74b7b0" },
-				                { visibility: 'simplified' }
-				            ]
-				        },{
-				            featureType: 'road',
-				            elementType: 'labels',
-				            stylers: [
-				                { visibility: 'on' }
-				            ]
-				        }
-				      ],
-
-				       lat = -33.867487,
-				       lng = 151.20699,
-
-				      customMap = new google.maps.StyledMapType(styles,
-				          {name: 'Styled Map'}),
-				      mapOptions = {
-				          zoom: 14,
-						scrollwheel: false,
-						disableDefaultUI: true,
-				          center: new google.maps.LatLng( lat, lng ),
-				          mapTypeControlOptions: {
-				              mapTypeIds: [google.maps.MapTypeId.ROADMAP]
-				          }
-				      },
-				      map = new google.maps.Map(document.getElementById('map'), mapOptions),
-				      myLatlng = new google.maps.LatLng( lat, lng ),
-
-
-
-
-				      marker = new google.maps.Marker({
-				        position: myLatlng,
-				        map: map,
-						icon: {
-						            url: 'img/marker.png',
-						            scaledSize: new google.maps.Size(36, 58)
-						        }
-				      });
-				      map.mapTypes.set('map_style', customMap);
-				      map.setMapTypeId('map_style');
-
-})(jQuery);
-
-</script>
-
-<!-- Google analytics -->
-
-
-<!-- End google analytics -->
-
-
-    </body>
+                        <div class="timeline">
+                          <!-- Education 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2010</span>
+                            <span class="item-small">Apple Inc.</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div>
+                          <!-- / Education 1 -->
+
+                          <!-- Education 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2010</span>
+                            <span class="item-small">Apple Inc.</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div>
+                          <!-- / Education 2 -->
+
+                          <!-- Education 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2010</span>
+                            <span class="item-small">Apple Inc.</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div>
+                          <!-- / Education 3 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Experience</h3>
+                        </div>
+
+                        <div class="timeline">
+                          <!-- Experience 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Frontend-developer</h4>
+                            <span class="item-period">Dec 2012 - Current</span>
+                            <span class="item-small">Web Agency</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div>
+                          <!-- / Experience 1 -->
+
+                          <!-- Experience 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Web Designer</h4>
+                            <span class="item-period">Dec 2011 - Nov 2012</span>
+                            <span class="item-small">Apple Inc.</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div>
+                          <!-- / Experience 2 -->
+
+                          <!-- Experience 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Graphic Designer</h4>
+                            <span class="item-period">Jan 2010 - Dec 2011</span>
+                            <span class="item-small">Apple Inc.</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div>
+                          <!-- / Experience 3 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Design <span>Skills</span></h3>
+                        </div>
+
+                        <div class="skills-info">
+                          <h4>Web Design</h4>                               
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-1"></div>
+                          </div>
+
+                          <h4>Graphic Design</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-2"></div>
+                          </div>
+
+                          <h4>Print Design</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div> 
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Coding <span>Skills</span></h3>
+                        </div>
+
+                        <div class="skills-info">
+                          <h4>HTML5</h4>                               
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-4"></div>
+                          </div>
+
+                          <h4>CSS3/LESS/SASS</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-5"></div>
+                          </div>
+
+                          <h4>jQuery</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-6"></div>
+                          </div> 
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Download Resume Button -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <div class="block">
+                        <div class="center download-resume">
+                          <a href="#" class="btn btn-secondary">Download Resume</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Download Resume Button -->
+
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+
+            <!-- Services Subpage -->
+            <section class="pt-page" data-id="services">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Services</h2>
+                </div>
+                <div class="page-content">
+                  <!-- My Services -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>My <span>Services</span></h3>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
+                          <div class="service-image">
+                            <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
+                          </div>
+                          <h4>Web Design</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="images/service/photography_icon.png" alt="Photography" class="mCS_img_loaded">
+                          </div>
+                          <h4>Photography</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="images/service/creativity_icon.png" alt="Creativity" class="mCS_img_loaded">
+                          </div>
+                          <h4>Management</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="images/service/advetising_icon.png" alt="Advetising" class="mCS_img_loaded">
+                          </div>
+                          <h4>Advetising</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of My Services -->
+
+                  <!-- Clients -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Clients</h3>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="#" target="_blank"><img src="images/clients/client_1.png" alt="image" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="#" target="_blank"><img src="images/clients/client_2.png" alt="image" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="#" target="_blank"><img src="images/clients/client_3.png" alt="image" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="#" target="_blank"><img src="images/clients/client_4.png" alt="image" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="#" target="_blank"><img src="images/clients/client_5.png" alt="image" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-2 subpage-block">
+                        <div class="client-block">
+                          <a href="#" target="_blank"><img src="images/clients/client_6.png" alt="image" class="mCS_img_loaded"></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- End of Clients -->
+
+                  <!-- Testimonials -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Testimonials</h3>
+                      </div>
+
+
+                      <div class="testimonials owl-carousel block">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-item">
+                          <!-- Testimonial Author -->
+                          <div class="testimonial-credits">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/testimonial_photo_1.jpg" alt="">
+                            </div>              
+                            <!-- /Picture -->
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">Maria Richardson</p>
+                              <p class="testimonial-firm">Lindsley's Lumber</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial author information -->
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>"Phasellus eu nunc tincidunt, ultricies elit vitae, pretium eros. Sed sed ipsum sed massa."</p>
+                            </div>
+                          </div>            
+                          <!-- /Testimonial Content -->                
+                        </div>
+                        <!-- End of Testimonial 1 -->
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-item">
+                          <!-- Testimonial Author -->
+                          <div class="testimonial-credits">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/testimonial_photo_2.jpg" alt="">
+                            </div>              
+                            <!-- /Picture -->
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">John Doe</p>
+                              <p class="testimonial-firm">Apple Inc.</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial author information -->
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>"Vivamus porta dapibus tristique. Suspendisse et arcu eget nisi convallis eleifend nec ac lorem.</p>
+                            </div>
+                          </div>            
+                          <!-- /Testimonial Content -->                
+                        </div>
+                        <!-- End of Testimonial 2 -->
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-item">
+                          <!-- Testimonial Author -->
+                          <div class="testimonial-credits">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/testimonial_photo_3.jpg" alt="">
+                            </div>              
+                            <!-- /Picture -->
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">George McQueen</p>
+                              <p class="testimonial-firm">Harmony House</p>
+                            </div>
+                          </div>
+                          <!-- /Testimonial author information -->
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>"Aliquam congue auctor lectus sed fermentum. Nulla ultricies tellus quis sapien lacinia egestas."</p>
+                            </div>
+                          </div>            
+                          <!-- /Testimonial Content -->                
+                        </div>
+                        <!-- End of Testimonial 3 -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Tesimonials -->
+
+                  <!-- Pricing -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Pricing</h3>
+                      </div>
+
+                      <div class="lm-pricing row clearfix">
+                        <div class="lm-package-wrap col-md-4 default-col">
+                          <div class="lm-package">
+                            <div class="lm-heading-row">
+                              <span>Plan 1</span>
+                            </div>
+                            <div class="lm-pricing-row">
+                              <span>$64</span>
+                              <small>per month</small>
+                            </div>
+
+                            <div class="lm-button-row">
+                              <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
+                            </div>
+                            <div class="lm-default-row">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="lm-default-row">
+                              Pellentesque scelerisque
+                            </div>
+                            <div class="lm-default-row">
+                              Morbi eu sagittis
+                            </div>
+                            <div class="lm-default-row">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="lm-package-wrap col-md-4 highlight-col ">
+                          <div class="lm-package">
+                            <div class="lm-heading-row">
+                              <span>Plan 2</span>
+                            </div>
+                            <div class="lm-pricing-row">
+                              <span>$128</span>
+                              <small>per month</small>
+                            </div>
+                            
+                            <div class="lm-button-row">
+                              <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
+                            </div>
+                            <div class="lm-default-row">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="lm-default-row">
+                              Pellentesque scelerisque
+                            </div>
+                            <div class="lm-default-row">
+                              Morbi eu sagittis
+                            </div>
+                            <div class="lm-default-row">
+                              Donec non diam
+                            </div>
+                            <div class="lm-default-row">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="lm-package-wrap col-md-4 default-col ">
+                          <div class="lm-package">
+                            <div class="lm-heading-row">
+                              <span>Plan 3</span>
+                            </div>
+                            
+                            <div class="lm-pricing-row">
+                              <span>$256</span>
+                              <small>per month</small>
+                            </div>
+
+                            <div class="lm-button-row">
+                              <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
+                            </div>
+
+                            <div class="lm-default-row">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="lm-default-row">
+                              Pellentesque scelerisque
+                            </div>
+                            <div class="lm-default-row">
+                              Morbi eu sagittis
+                            </div>
+                            <div class="lm-default-row">
+                              Donec non diam
+                            </div>
+                            <div class="lm-default-row">
+                              Aenean nec libero
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Pricing -->
+                </div>
+              </div>
+            </section>
+            <!-- End of Services Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page" data-id="portfolio">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Portfolio</h2>
+                </div>
+                <div class="page-content">
+
+                  <!-- Portfolio Content -->
+                  <div class="portfolio-content">
+                                
+                    <!-- Portfolio filter -->
+                    <ul id="portfolio_filters" class="portfolio-filters">
+                      <li class="active">
+                        <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                      </li>
+                    </ul>
+                    <!-- End of Portfolio filter -->
+
+                    <!-- Portfolio Grid -->
+                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                      <!-- Portfolio Item 1 -->
+                      <figure class="item" data-groups='["all", "media"]'>
+                        <a class="ajax-page-load" href="portfolio-1.html">
+                          <img src="images/portfolio/1.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 1 -->
+
+                      <!-- Portfolio Item 2 -->
+                      <figure class="item" data-groups='["all", "video"]'>
+                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                          <img src="images/portfolio/2.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Video</small>
+                            <i class="fa fa-video-camera"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 2 -->
+
+                      <!-- Portfolio Item 3 -->
+                      <figure class="item" data-groups='["all","illustration"]'>
+                        <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/3.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 3 -->
+
+                      <!-- Portfolio Item 4 -->
+                      <figure class="item" data-groups='["all", "media"]'>
+                        <a class="ajax-page-load" href="portfolio-2.html">
+                          <img src="images/portfolio/4.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 4 -->
+
+                      <!-- Portfolio Item 5 -->
+                      <figure class="item" data-groups='["all", "illustration"]'>
+                        <a href="images/portfolio/full/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                          <img src="images/portfolio/5.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 5 -->
+
+                      <!-- Portfolio Item 6 -->
+                      <figure class="item" data-groups='["all", "media"]'>
+                        <a class="ajax-page-load" href="portfolio-3.html">
+                          <img src="images/portfolio/6.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 6 -->
+
+                      <!-- Portfolio Item 7 -->
+                      <figure class="item" data-groups='["all", "video"]'>
+                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                          <img src="images/portfolio/7.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Video</small>
+                            <i class="fa fa-video-camera"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 7 -->
+
+                      <!-- Portfolio Item 8 -->
+                      <figure class="item" data-groups='["all",  "media"]'>
+                        <a class="ajax-page-load" href="portfolio-4.html">
+                          <img src="images/portfolio/8.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 8 -->
+
+                      <!-- Portfolio Item 9 -->
+                      <figure class="item" data-groups='["all","illustration"]'>
+                        <a href="images/portfolio/full/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                          <img src="images/portfolio/9.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 9 -->
+
+                      <!-- Portfolio Item 10 -->
+                      <figure class="item" data-groups='["all", "video"]'>
+                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
+                          <img src="images/portfolio/10.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Video</small>
+                            <i class="fa fa-video-camera"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 10 -->
+
+                      <!-- Portfolio Item 11 -->
+                      <figure class="item" data-groups='["all","illustration"]'>
+                        <a href="images/portfolio/full/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/11.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 11 -->
+
+                      <!-- Portfolio Item 12 -->
+                      <figure class="item" data-groups='["all","media"]'>
+                        <a class="ajax-page-load" href="portfolio-5.html">
+                          <img src="images/portfolio/12.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <!-- /Portfolio Item 12 -->
+                    </div>
+                    <!-- /Portfolio Grid -->
+
+                  </div>
+                  <!-- /Portfolio Content -->
+                </div>
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Blog Subpage -->
+            <section class="pt-page" data-id="blog">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Blog</h2>
+                </div>
+                <div class="page-content">
+
+                  <!-- Blog Posts Grid -->
+                  <div class="blog-masonry two-columns">
+                    <!-- Blog Post 1 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_1.jpg" alt="blog-post-1" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Travel</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 1 -->
+
+                    <!-- Blog Post 2 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_2.jpg" alt="blog-post-2" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">3</span><span class="month">Nov</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">jQuery</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">One Framework, Every Device</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 2 -->
+
+                    <!-- Blog Post 3 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_3.jpg" alt="blog-post-3" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">12</span><span class="month">Oct</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Sport</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">Designed for Everyone, Everywhere</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 3 -->
+
+                    <!-- Blog Post 4 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_4.jpg" alt="blog-post-4" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">18</span><span class="month">Aug</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">CSS</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">An Introduction To PostCSS</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 4 -->
+
+                    <!-- Blog Post 5 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_5.jpg" alt="blog-post-5" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">2</span><span class="month">Jul</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">                        
+                          <ul class="category">
+                            <li><a href="#">CSS3</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">Original and Innovative Web Layouts</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 5 -->
+
+                    <!-- Blog Post 6 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_6.jpg" alt="blog-post-6" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">8</span><span class="month">May</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">HTML5</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 6 -->
+
+                    <!-- Blog Post 7 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_7.jpg" alt="blog-post-7" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">7</span><span class="month">Apr</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">Design</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">Navigation for Mega-Sites</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 7 -->
+
+                    <!-- Blog Post 8 -->
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="blog-post-1.html">
+                            <img class="post-image img-responsive" src="images/blog/blog_post_8.jpg" alt="blog-post-8" />
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">21</span><span class="month">Mar</span><!--<span class="year">2016</span>--></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a href="#">CSS3</a></li>
+                          </ul>
+                          <a href="blog-post-1.html"><h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Blog Post 8 -->
+                  </div>
+                  <!-- Blog Posts Grid -->
+                </div>
+              </div>
+            </section>
+            <!-- /Blog Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page" data-id="contact">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Contact</h2>
+                </div>
+                <div class="page-content">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                      <div class="block-title">
+                        <h3>Get in <span>Touch</span></h3>
+                      </div>
+                      <!-- Google Map -->
+                      <div id="map" class="map"></div>
+                      <!-- End of Google Map -->
+
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>Los Angeles, USA</h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>alexsmith@example.com</h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>+123 654 78900</h5>
+                        </div>
+                      </div>
+                      <div class="contact-info-block">
+                        <div class="ci-icon">
+                          <i class="fa fa-check"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h5>Freelance Available</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6">
+                      <div class="block-title">
+                        <h3>Contact <span>Form</span></h3>
+                      </div>
+                      <form id="contact-form" method="post" action="contact_form/contact_form.php">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-user"></i>
+                            <label>Full Name</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder required="required" data-error="Name is required.">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-envelope"></i>
+                            <label>Email Address</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder required="required" data-error="Valid email is required.">
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <i class="fa fa-comment"></i>
+                            <label>Message for Me</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+
+                          <input type="submit" class="button btn-send" value="Send message">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+    <footer>
+      <div class="copyrights">© 2017 All rights reserved. Material template by LMPixels</div>
+    </footer>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/pages-switcher.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script>
+    <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/jquery.googlemap.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
