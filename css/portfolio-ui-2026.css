@@ -135,3 +135,18 @@ body{background-color:#fff8f4;background-image:radial-gradient(ellipse at 10% 12
 .portfolio-filters li a{padding:9px 13px;font-size:13px}
 .blog-card:hover,.service-block:hover{transform:none}
 }
+
+/* Precision mobile navigation toggle: CSS-drawn lines, no font glyph offset */
+@media(max-width:991px){
+.mobile-header{display:flex!important;align-items:center;justify-content:space-between;gap:12px}
+.mobile-logo-container{flex:1 1 auto;min-width:0;display:flex;align-items:center}
+.mobile-site-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.25;margin:0}
+.menu-toggle.mobile-visible{position:relative!important;float:none!important;flex:0 0 46px;display:flex!important;align-items:center;justify-content:center;width:46px!important;height:46px!important;min-width:46px;min-height:46px;margin:0!important;padding:0!important;border:1px solid rgba(255,255,255,.36);border-radius:13px;line-height:1!important;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.menu-toggle-icon{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:22px;height:22px;pointer-events:none}
+.menu-toggle-icon span{display:block;flex:0 0 2px;width:22px;height:2px;background:#fff;border-radius:999px;transform-origin:center;transition:transform .22s ease,opacity .18s ease}
+.menu-toggle[aria-expanded="true"] .menu-toggle-icon span:first-child{transform:translateY(7px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] .menu-toggle-icon span:nth-child(2){opacity:0}
+.menu-toggle[aria-expanded="true"] .menu-toggle-icon span:last-child{transform:translateY(-7px) rotate(-45deg)}
+.menu-toggle:focus-visible{outline:3px solid #fff;outline-offset:3px}
+}
+@media(prefers-reduced-motion:reduce){.menu-toggle-icon span{transition:none}}
