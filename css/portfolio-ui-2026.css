@@ -158,3 +158,11 @@ body{background-color:#fff8f4;background-image:radial-gradient(ellipse at 10% 12
 .menu-toggle-icon span{background-color:#ffffff!important;box-shadow:0 0 1px rgba(255,255,255,.5);min-height:2px}
 .menu-toggle[aria-expanded="true"] .menu-toggle-icon span:nth-child(2){opacity:0!important}
 }
+
+/* Reliable inline SVG icon: unaffected by legacy span and font styles */
+@media(max-width:991px){
+.menu-toggle.mobile-visible{display:flex!important;align-items:center!important;justify-content:center!important;color:#fff!important}
+.menu-toggle-svg{display:block!important;visibility:visible!important;opacity:1!important;position:relative;z-index:2;flex:0 0 24px;width:24px!important;height:24px!important;overflow:visible;pointer-events:none}
+.menu-toggle-svg path{stroke:#fff!important;stroke-width:2.5!important;opacity:1!important;visibility:visible!important}
+.menu-toggle[aria-expanded="true"] .menu-toggle-svg{transform:rotate(90deg);transition:transform .2s ease}
+}
