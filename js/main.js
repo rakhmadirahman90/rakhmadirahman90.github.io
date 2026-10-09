@@ -79,7 +79,7 @@
     // Hide Mobile menu
     function mobileMenuHide() {
         var windowWidth = $(window).width();
-        if (windowWidth < 1024) {
+        if (windowWidth <= 991) {
             $('#site_header').addClass('mobile-menu-hide');
             $('.menu-toggle').attr('aria-expanded', 'false');
         }
@@ -148,6 +148,13 @@
             mobileMenuHide();
         });
 
+        // Close the mobile navigation with Escape or a tap outside the drawer.
+        $(document).on('keydown', function(e) {
+            if (e.key === 'Escape') mobileMenuHide();
+        });
+        $(document).on('click', function(e) {
+            if ($(window).width() <= 991 && !$(e.target).closest('#site_header, .menu-toggle').length) mobileMenuHide();
+        });
         // Sidebar toggle
         $('.sidebar-toggle').on("click", function () {
             $('#blog-sidebar').toggleClass('open');
