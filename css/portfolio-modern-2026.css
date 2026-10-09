@@ -104,3 +104,16 @@ body{color:var(--p-text);background:#fff9f5;background-image:radial-gradient(cir
 .start-page-content .photo{width:min(58vw,220px);margin-bottom:18px!important}
 .start-page-content .title-block h1{font-size:clamp(24px,6.3vw,30px)!important}
 }
+
+/* High-specificity override for old 280px image and decorative frame */
+@media screen and (max-width:991px){
+section[data-id="home"] .start-page-content .page-header{padding:24px 18px 26px!important;margin:0!important;overflow:hidden!important}
+section[data-id="home"] .start-page-content .page-header .row{display:flex!important;flex-direction:column!important;align-items:center!important;gap:0!important}
+section[data-id="home"] .start-page-content .page-header .photo{display:block!important;box-sizing:border-box!important;width:210px!important;max-width:58vw!important;height:auto!important;min-height:0!important;max-height:none!important;margin:0 auto 16px!important;padding:0!important;border:0!important;border-radius:15px!important;overflow:hidden!important;background:transparent!important;box-shadow:0 10px 26px rgba(95,36,13,.20)!important}
+section[data-id="home"] .start-page-content .page-header .photo img{display:block!important;box-sizing:border-box!important;width:100%!important;max-width:100%!important;height:260px!important;max-height:34vh!important;min-height:180px!important;object-fit:cover!important;object-position:center top!important;margin:0!important;padding:0!important;border:3px solid white!important;border-radius:15px!important;box-shadow:none!important}
+section[data-id="home"] .start-page-content .page-header .photo::before,section[data-id="home"] .start-page-content .page-header .photo::after{display:none!important}
+section[data-id="home"] .start-page-content .page-header .title-block{margin:0!important;padding:0!important}
+section[data-id="home"] .start-page-content .page-header .title-block h1{font-size:clamp(24px,5.7vw,34px)!important;margin:0 0 7px!important;line-height:1.2!important}
+section[data-id="home"] .start-page-content .page-header .title-block .sp-subtitle{font-size:clamp(13px,3.5vw,17px)!important;margin:0!important;line-height:1.4!important}
+section[data-id="home"] .start-page-content .page-header .social-links{margin:14px auto 0!important}
+}
