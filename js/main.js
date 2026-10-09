@@ -9,8 +9,8 @@
 "use strict";
     // Subpages resize
     function subpages_resize() {
-        var subpagesHeight = $('.pt-page-current').height();
-        $(".subpages").height(subpagesHeight + 50);
+        var subpagesHeight = $('.pt-page-current').outerHeight(true) || 0;
+        $(".subpages").height(Math.max(subpagesHeight + 40, 200));
     }
     
     // Portfolio subpage filters
@@ -155,6 +155,18 @@
         $(document).on('click', function(e) {
             if ($(window).width() <= 991 && !$(e.target).closest('#site_header, .menu-toggle').length) mobileMenuHide();
         });
+        // Reset retained scroll when changing page sections; otherwise later sections
+        // (Portfolio, Blog, Contact) may open underneath the fixed mobile header.
+        function resetSectionScroll() {
+            if ($(window).width() <= 991) {
+                window.scrollTo(0, 0);
+                $('html, body').scrollTop(0);
+            }
+            window.setTimeout(subpages_resize, 120);
+            window.setTimeout(subpages_resize, 650);
+        }
+        $('.site-main-menu').on('click', 'a.pt-trigger', resetSectionScroll);
+        $(window).on('hashchange', resetSectionScroll);
         // Sidebar toggle
         $('.sidebar-toggle').on("click", function () {
             $('#blog-sidebar').toggleClass('open');
