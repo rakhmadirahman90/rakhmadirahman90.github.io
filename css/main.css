@@ -39,7 +39,7 @@
 @import url('material-design-iconic-font.min.css'); /* Full icons list: http://zavoloklom.github.io/material-design-iconic-font/cheatsheet.htmls */
 
 /* Google fonts */
-@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i|Montserrat:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i|Montserrat:300,400,500,600,700");
 
 
 /* ============================================================================= 
@@ -2552,4 +2552,31 @@ blockquote footer, blockquote small, blockquote .small {
   .home-page-description {
     font-size: 16px;
   }
+}
+
+
+/* Responsive layout safeguards - 2026 */
+html, body { max-width: 100%; overflow-x: hidden; }
+*, *::before, *::after { box-sizing: border-box; }
+img, video, iframe { max-width: 100%; }
+.portfolio-grid figure img { width: 100%; height: auto; }
+.portfolio-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+@media only screen and (max-width: 991px) {
+  .mobile-header { position: fixed; top: 0; left: 0; right: 0; width: 100%; z-index: 1100; display: flex; align-items: center; justify-content: space-between; min-height: 70px; }
+  .mobile-logo-container { min-width: 0; flex: 1 1 auto; }
+  .mobile-site-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .menu-toggle { flex: 0 0 auto; cursor: pointer; border: 0; font: inherit; }
+  .site-main { padding-top: 70px; }
+  .header { z-index: 1090; max-width: 100%; }
+  .pt-page, .section-inner, .page-content, .portfolio-content { max-width: 100%; }
+  .portfolio-grid { width: 100%; }
+  .portfolio-filters li { margin-bottom: 4px; }
+}
+@media only screen and (max-width: 480px) {
+  .mobile-site-title { font-size: clamp(18px, 5vw, 26px); }
+  .custom-page-content .page-header { padding: 20px 16px; }
+  .custom-page-content .page-header h2 { font-size: clamp(26px, 7vw, 34px); overflow-wrap: anywhere; }
+  .page-content { padding-left: 16px; padding-right: 16px; }
+  .portfolio-grid figure { width: 100%; max-width: 100%; }
+  .portfolio-filters { padding-left: 0; }
 }
