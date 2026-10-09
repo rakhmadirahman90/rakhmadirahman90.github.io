@@ -150,3 +150,11 @@ body{background-color:#fff8f4;background-image:radial-gradient(ellipse at 10% 12
 .menu-toggle:focus-visible{outline:3px solid #fff;outline-offset:3px}
 }
 @media(prefers-reduced-motion:reduce){.menu-toggle-icon span{transition:none}}
+
+/* Force visibility of hamburger strokes on mobile Chrome */
+@media(max-width:991px){
+.menu-toggle.mobile-visible{visibility:visible!important;opacity:1!important;background:#f76a38!important;isolation:isolate}
+.menu-toggle-icon,.menu-toggle-icon span{visibility:visible!important;opacity:1}
+.menu-toggle-icon span{background-color:#ffffff!important;box-shadow:0 0 1px rgba(255,255,255,.5);min-height:2px}
+.menu-toggle[aria-expanded="true"] .menu-toggle-icon span:nth-child(2){opacity:0!important}
+}
