@@ -81,6 +81,7 @@
         var windowWidth = $(window).width();
         if (windowWidth < 1024) {
             $('#site_header').addClass('mobile-menu-hide');
+            $('.menu-toggle').attr('aria-expanded', 'false');
         }
     }
     // /Hide Mobile menu
@@ -138,7 +139,8 @@
 
         // Mobile menu
         $('.menu-toggle').on("click", function () {
-            $('#site_header').toggleClass('mobile-menu-hide');
+            var isHidden = $('#site_header').toggleClass('mobile-menu-hide').hasClass('mobile-menu-hide');
+            $('.menu-toggle').attr('aria-expanded', String(!isHidden));
         });
 
         // Mobile menu hide on main menu item click
