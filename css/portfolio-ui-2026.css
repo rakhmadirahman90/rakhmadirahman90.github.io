@@ -57,3 +57,18 @@ a:focus-visible,button:focus-visible{outline:3px solid #00c6c8;outline-offset:3p
 .page-content [class*="col-"]{min-width:0}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Fix fixed-header overlap consistently on all six hash-routed sections */
+@media(max-width:991px){
+  html{scroll-padding-top:var(--ui-header)}
+  body{overflow-x:hidden}
+  .site-main{position:relative!important;top:auto!important;margin-top:var(--ui-header)!important;padding-top:0!important;min-height:calc(100dvh - var(--ui-header))}
+  .pt-wrapper{position:relative;width:100%}
+  .subpages{position:relative;padding-top:16px!important;min-height:200px;overflow:hidden}
+  .pt-page{top:0!important;box-sizing:border-box;max-width:calc(100% - 24px);padding-bottom:24px}
+  .pt-page-current{overflow:visible}
+  .pt-page .section-inner{overflow:hidden}
+  #site_header.header{position:fixed!important;top:var(--ui-header)!important;z-index:1090}
+  .mobile-header{position:fixed!important;top:0!important;z-index:1100}
+}
+@media(max-width:560px){.pt-page{max-width:calc(100% - 20px)}}
