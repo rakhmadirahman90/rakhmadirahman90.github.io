@@ -72,3 +72,28 @@ a:focus-visible,button:focus-visible{outline:3px solid #00c6c8;outline-offset:3p
   .mobile-header{position:fixed!important;top:0!important;z-index:1100}
 }
 @media(max-width:560px){.pt-page{max-width:calc(100% - 20px)}}
+
+/* Orange + white brand palette: global color audit override */
+:root{--ui-ink:#333b46;--ui-accent:#ff5722;--ui-violet:#ff8a50;--ui-line:#f3dfd6}
+body{background:#fff8f4;background-image:radial-gradient(circle at 85% 10%,#ffe7db 0,transparent 34%),linear-gradient(160deg,#fffaf7,#fff 55%,#fff1e9);color:#333b46}
+a{color:#f4511e}a:hover{color:#df440f}
+.pt-page .section-inner{border-color:#f3dfd6;box-shadow:0 16px 42px rgba(139,61,29,.10)}
+.custom-page-content .page-header.color-1{background:#ff5722;background-image:linear-gradient(115deg,#f4511e,#ff7043 65%,#ff9a6e)}
+.block-title h3 span,.site-title span{color:#f4511e}
+.portfolio-filters li a{background:#fff1e9;color:#79432d}
+.portfolio-filters li.active a,.portfolio-filters li a:hover{background:#ff5722;color:#fff}
+@media(min-width:992px){
+.header,.header.sticked{background:rgba(255,255,255,.97);box-shadow:0 4px 24px rgba(122,56,27,.09)}
+.site-main-menu li a,.site-main-menu li a:hover{color:#4b3a33}
+.site-main-menu li.active a{color:#f4511e}
+}
+@media(max-width:991px){
+.mobile-header{background:#ff5722;border-bottom:1px solid #ef4a17;box-shadow:0 6px 22px rgba(171,65,21,.20)}
+.mobile-site-title{color:#fff}
+.menu-toggle{background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.35)}
+.menu-toggle i{color:#fff}
+#site_header.header{background:#fff;border-color:#f4e2d9;box-shadow:0 20px 48px rgba(105,48,24,.18)}
+#site_header .site-main-menu li a,#site_header .site-main-menu li a:hover{color:#4b3a33}
+#site_header .site-main-menu li.active a,#site_header .site-main-menu li a:hover,#site_header .site-main-menu li a:focus-visible{background:#fff0e7;color:#e84d1b}
+}
+button:focus-visible,a:focus-visible{outline-color:#ff8a50}
