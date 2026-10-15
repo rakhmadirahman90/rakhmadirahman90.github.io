@@ -9,8 +9,10 @@
 "use strict";
     // Subpages resize
     function subpages_resize() {
-        var subpagesHeight = $('.pt-page-current').outerHeight(true) || 0;
-        $(".subpages").height(Math.max(subpagesHeight + 40, 200));
+        var $active = $(".pt-page-current");
+        if (!$active.length) return;
+        var subpagesHeight = $active.outerHeight(true) || 0;
+        $(".subpages").height(Math.max(subpagesHeight + 32, 200));
     }
     
     // Portfolio subpage filters
@@ -167,6 +169,12 @@
         }
         $('.site-main-menu').on('click', 'a.pt-trigger', resetSectionScroll);
         $(window).on('hashchange', resetSectionScroll);
+        // Keep section container in sync after responsive images and dynamic cards settle.
+        $(".subpages").on("load", "img", subpages_resize);
+        if (window.ResizeObserver) {
+            var activePageObserver = new ResizeObserver(function() { subpages_resize(); });
+            $(".pt-page").each(function() { activePageObserver.observe(this); });
+        }
         // Sidebar toggle
         $('.sidebar-toggle').on("click", function () {
             $('#blog-sidebar').toggleClass('open');
@@ -291,10 +299,8 @@
             });
 
         //Google Maps
-        $("#map").googleMap();
-        $("#map").addMarker({
-            address: "15 avenue des champs Elysées 75008 Paris" // Your Address
-        });
+        // Do not render a misleading placeholder map for an unrelated address.
+        // A verified location and configured Maps API key are required before enabling it.
     });
 
 })(jQuery);
